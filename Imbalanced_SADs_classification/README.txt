@@ -1,0 +1,5 @@
+The four Python files in the 'test' folder each represent examples of our proposed method applied to four different supervised learning algorithms (SVM, XGB, LR, RF). These files can be run directly on relevant platforms, such as PyCharm. 
+
+The 'data' folder contains standardized fishery datasets for bigeye tuna (BET) and albacore tuna (AT). Specifically, BZH0.5.csv contains the raw dataset that has not been preprocessed, while BZH0.5_new.csv contains the dataset that has been processed using the data preprocessing method outlined in section 2.2 of this study.
+
+Please note: Before running the files in the 'test' folder, you should first edit the 'preprocess.py' file in the 'data_provider' folder. Modify the default file path within it to the file path where your "Imbalanced_SADs_classification" folder is located on your computer.
